@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("Images/backgnd1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cancel-container {
+    text-align: center;
+    min-width: 40%;
+    height: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.cancel-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cancel-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cancel-container input {
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1.4px solid #464646;
+    width: 80%;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-group button {
+    transition: background 3s ease-in-out, box-shadow 0.3s ease-in-out; /* Apply smooth transition */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px 16px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #8686e3, #3e0e74);
+    backdrop-filter: blur(30px);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button-group button:first-of-type:hover {
+    background: linear-gradient(45deg, #8686e3, red);
+    box-shadow: 6px 7px 13px 0px gray;
+    transition: background 3s ease-in-out, box-shadow 0.3s ease-in-out; /* Slow background change */
+}
+
+
+
+.button-group button:last-of-type:hover {
+    box-shadow: 6px 7px 13px 0px gray;
+    transition: background 20s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth background transition */
+}

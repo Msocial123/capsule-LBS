@@ -1,0 +1,5 @@
+db.contacts.find().pretty()
+db.bookings.find().pretty()
+show collections
+use logistics
+show dbs
