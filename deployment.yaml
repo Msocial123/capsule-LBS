@@ -16,7 +16,7 @@ spec:
       - name: nodejs-app
         image: marrapu07578/myapp:latest
         ports:
-        - containerPort: 3028
+        - containerPort: 3039
         env:
         - name: MONGO_URI
           value: "mongodb://mongodb:27017/logistics"
