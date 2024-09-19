@@ -170,7 +170,7 @@ app.delete('/api/bookings/:id', async (req, res) => {
 });
 
 // Start the server on the specified port
-const PORT = process.env.PORT || 3028;
+const PORT = process.env.PORT || 3039;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });

@@ -5,8 +5,8 @@ metadata:
 spec:
   type: LoadBalancer 
   ports:
-    - port: 3028
-      targetPort: 3028
+    - port: 3039
+      targetPort: 3039
   selector:
     app: app-and-mongodb
 
